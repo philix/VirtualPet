@@ -3,9 +3,25 @@ void setup(){
   size(400,400);
 }
 void draw(){
-  noStroke();
-ellipse(200,180,80,80);
-ellipse(200,220, 140,140);
-ellipse(200,260,180,180);
+void setup(){
+  size(400,400);
+//body
+noStroke();
+ellipse(200,80,80,80);
+ellipse(200,160, 120,120);
+ellipse(200, 260, 160,160);
+//eyes
+fill(0,0,0);
+ellipse(185,70,10,10);
+ellipse(215,70,10,10);
+//nose
+
+triangle(200, 80, 200, 90, 205,85);
+}
+void draw(){
+if(mousePressed == true){
+  System.out.println(mouseX + "," + mouseY);
+};
+}
 }
 
