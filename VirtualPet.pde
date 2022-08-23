@@ -1,8 +1,11 @@
 
 void setup(){
-  //some of your code here
+  size(400,400);
 }
 void draw(){
-  //more of your code here
+  noStroke();
+ellipse(200,180,80,80);
+ellipse(200,220, 140,140);
+ellipse(200,260,180,180);
 }
 
