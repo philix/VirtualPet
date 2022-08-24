@@ -3,7 +3,6 @@ void setup(){
   size(400,400);
 }
 void draw(){
-void setup(){
   size(400,400);
 //body
 noStroke();
@@ -18,10 +17,3 @@ ellipse(215,70,10,10);
 
 triangle(200, 80, 200, 90, 205,85);
 }
-void draw(){
-if(mousePressed == true){
-  System.out.println(mouseX + "," + mouseY);
-};
-}
-}
-
